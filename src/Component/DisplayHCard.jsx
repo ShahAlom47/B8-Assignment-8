@@ -5,7 +5,7 @@ const DisplayHCard = ({data}) => {
     
     return (
         <Link to={`/details/${id}`}>
-        <div onClick={(e)=>console.log(id)} className= {`card card-compact  bg-[${category_bg}] shadow-xl`}>
+        <div  className= {`card card-compact  bg-[${category_bg}] shadow-xl`}>
         <figure><img src={picture} alt="Shoes" /></figure>
         <div className=" p-6 space-y-5">
 

@@ -1,9 +1,6 @@
-import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner";
-import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
 import DisplayHCard from "./DisplayHCard";
-import { data } from "autoprefixer";
 
 
 const Home = () => {
@@ -24,8 +21,7 @@ const Home = () => {
 
         setDatas(CardData)
     }, [CardData])
-    console.log(CardData);
-    console.log(datas);
+   
 
     const formHandel = (e, searchV) => {
         e.preventDefault();
